@@ -1,0 +1,146 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    background-color:white;
+    overflow-y: auto;
+    overflow-x: hidden;
+   } 
+
+   .collapse{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .navbar{
+    padding-top: 30px;
+   /* margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    -webkit-border-radius: 10;
+     -moz-border-radius: 10;
+     border-radius: 15px;*/
+   
+   }
+
+   .navbar ul li a:hover {
+    height: 100%;
+    background: #2f3e46;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    transition: all 1s;
+    
+  }
+  .descriptionn{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .icon:hover{
+      padding-right: 25px;
+      transition: all .3s;
+    }
+   
+   input:invalid { 
+    background-color: white;
+    border:#2f3e46;
+    outline: 2px solid #2f3e46 ;
+    border-radius: 5px;}
+   
+   label{
+     font-size: larger;
+    color: black;
+    padding: 10 8px;
+   }
+   
+   input{
+    padding: auto 13px;
+    width: 300px;
+     height: 40px;
+    color: black; 
+    border-radius: 5px;
+    font-size:large;
+   }
+   .form{
+    padding-left: 30px;
+    margin-left: 30px;
+    padding-top: 50px;
+  
+   }
+   
+   .btn{
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    height: 60px; 
+    width: 50%; 
+   }
+
+   #right{
+    align-items: center;
+    justify-content:center;
+   }
+
+   #pa{
+    padding-top: 100px;
+    font-size: larger;
+   }
+   
+   
+   .wrap {
+       border-radius: 20px;
+        margin: auto;
+       background: #cad2c5;
+       padding: 40px;
+       box-sizing: border-box;
+       margin-top: 50px;
+       margin-bottom: 50px;
+       text-align: center;
+       font-size: larger;
+       max-width: 400px;
+       margin-right: 40%;
+       height: 500px;
+       align-items: center;
+      justify-content:center;
+      padding-top: 90px;
+       
+     }
+   
+     #st{
+      align-items: center;
+    justify-content:center;
+     }
+   
+   
+    
+   
+    /*footer*/
+
+
+ .contact-form .contact-input{
+  background: #cad2c5;
+  color: #2f3e46;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  line-height: 1.5rem;
+  padding: .9rem 1.4rem;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+
+.btnn{
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  background-color: #84a98c;
+  float: right;
+ 
+ }
+
+ textarea {
+  resize: none;
+}

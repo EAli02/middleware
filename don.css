@@ -1,0 +1,127 @@
+body{
+  overflow-x: hidden;
+}
+
+.collapse{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.navbar{
+  padding-top: 30px;
+  /*
+  margin-top: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
+  -webkit-border-radius: 10;
+   -moz-border-radius: 10;
+   border-radius: 15px;
+   */
+ 
+ }
+
+ .navbar ul li a:hover {
+  height: 100%;
+  background: #2f3e46;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  transition: all 1s;
+  
+}
+
+.icon:hover{
+    padding-right: 25px;
+    transition: all .3s;
+  }
+
+  #title{
+    max-width: 30%;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 10px;
+    color: #fff;
+    margin-bottom: 60px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-size: larger;
+    font-family: "Montserrat"; 
+
+}
+
+
+ label{
+  font-size: 2rem;
+  padding: 10 8px;
+  font-family: "Montserrat";
+  color: #2f3e46;
+ }
+
+ p{
+  padding-left: 10px;
+ }
+
+ .form{
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 20px;
+ text-align: center;
+}
+
+input{
+  padding: auto 13px;
+  width: 65%; height: 70%;
+  color: black; 
+  border-radius: 5px;
+ }
+ .form{
+  padding-left: 13px;
+ }
+
+ .btn{
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  height: 60px; 
+  width: 200px; 
+ }
+
+.wrap {
+    max-width: 90%;
+    border-radius: 20px;
+    margin: auto;
+    background: #cad2c5;
+    box-sizing: border-box;
+    padding: 40px;
+    color: black;
+    margin-top: 60px;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 50px;
+    font-family: "Montserrat"; 
+  }
+
+  table {
+    font-family: "Montserrat";
+    border-collapse: collapse;
+    border-width: 30px;
+    width: 95%;
+    margin-left: 30px;
+    margin-top: 25px;
+   
+  }
+
+  td, th {
+    border: 1px solid  #2f3e46;
+    text-align: left;
+    padding: 8px;
+    height: 60px;
+    font-size:1.5rem;
+    border-width: 3px;
+    color: #000;
+    background-color: #cad2c5;
+    text-align: center;
+  }
